@@ -1,0 +1,14 @@
+{
+  "name": "testEventBlock",
+  "blockId": "hec69_kYOQoibUBnM3IYs",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/testEventBlock",
+    "ssh": "git@github.com:devthalal/testEventBlock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
